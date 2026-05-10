@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi Column Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Dynamic Multi-Column Grid</h1>
+
+  <div class="controls">
+    <button onclick="removeColumn()">-</button>
+    <input type="number" id="columnCount" value="3" min="1">
+    <button onclick="addColumn()">+</button>
+    <button onclick="updateColumns()">Set Columns</button>
+  </div>
+
+  <div id="gridContainer" class="grid-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
