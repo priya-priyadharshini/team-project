@@ -1,0 +1,20 @@
+body{
+    background-color:#f5f5f5;
+}
+
+.card{
+    border-radius:10px;
+}
+body{
+    background-color:#f5f5f5;
+}
+
+.card{
+    border-radius:10px;
+}
+
+/* Urgent Task Style */
+.urgent-card{
+    background-color:red;
+    color:white;
+}
